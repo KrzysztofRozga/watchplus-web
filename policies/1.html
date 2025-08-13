@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Watch+ App — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #4b5563;
+      --accent: #0ea5e9;
+      --card: #f9fafb;
+      --border: #e5e7eb;
+    }
+    html, body { background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; }
+    .container { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.25rem; }
+    header { margin-bottom: 2rem; }
+    h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+    .subtitle { color: var(--muted); margin-top: 0; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.25rem; }
+    h3 { font-size: 1.05rem; margin-top: 1.25rem; }
+    p { margin: 0.75rem 0; }
+    ul { margin: 0.5rem 0 0.75rem 1.25rem; }
+    code, .chip { background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.1rem 0.4rem; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { font-size: 0.95rem; color: var(--muted); }
+    .footer { margin-top: 2.5rem; font-size: 0.95rem; color: var(--muted); }
+    .table { width: 100%; border-collapse: collapse; }
+    .table th, .table td { border: 1px solid var(--border); padding: 0.6rem; text-align: left; vertical-align: top; }
+    .kicker { display: inline-block; font-size: 0.85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+    .badge { display: inline-block; margin-right: .5rem; padding: 0.15rem .5rem; border: 1px solid var(--border); border-radius: 999px; font-size: .8rem; color: var(--muted); background: #fff; }
+    .note { font-size: .95rem; color: var(--muted); }
+  
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0f;
+        --fg: #f1f5f9;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+        --card: #1e293b;
+        --border: #334155;
+      }
+      a:hover { text-decoration: underline; }
+    }
+    
+.data-list { display: grid; gap: 1rem; }
+.data-item { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem; }
+.data-item h3 { margin-top: 0; font-size: 1.1rem; color: var(--accent); }
+.data-item p { margin: 0.5rem 0; font-size: 0.95rem; }
+
+</style>
+    
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="kicker">Privacy Policy</span>
+      <h1>Watch+</h1>
+      <p class="subtitle meta">Effective date: August 13, 2025</p>
+      <p class="meta">Owner & Data Controller: <strong>Krzysztof Rózga Mobile Apps</strong></p>
+    </header>
+
+    <section>
+      <p>Thank you for using <strong>Watch+</strong>. This Privacy Policy explains what data the app collects, how and why it is used, and your choices. The app is developed and published by <strong>Krzysztof Rózga Mobile Apps</strong> (“we”, “us”, or “our”). We are based in the European Union, so the processing of personal data is carried out in accordance with the General Data Protection Regulation (<strong>GDPR</strong>).</p>
+      <p class="note">This document is designed to satisfy Apple App Store requirements and to be clear and readable for users. It covers the services actually used in the app: Firebase (Messaging, Firestore, Analytics), RevenueCat, and Sentry.</p>
+    </section>
+
+    <section>
+      <h2>Summary</h2>
+      <div class="card">
+        <ul>
+          <li>No in‑app account creation. Subscriptions use <span class="chip">RevenueCat Anonymous User IDs</span>.</li>
+          <li>We store device push tokens in <span class="chip">Firebase Firestore</span> to deliver notifications.</li>
+          <li>We send notifications using <span class="chip">Firebase Cloud Messaging (FCM)</span> / Apple Push Notification service (APNs).</li>
+          <li>We measure usage with <span class="chip">Firebase Analytics</span> (aggregated usage data).</li>
+          <li>We collect crash and error diagnostics with <span class="chip">Sentry</span>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Data We Process & Purposes</h2>
+      
+<div class="data-list">
+  <div class="data-item">
+    <h3>App identifiers</h3>
+    <p><strong>Examples:</strong> Anonymous RevenueCat App User ID; Firebase Instance ID</p>
+    <p><strong>Purpose:</strong> Enable subscriptions, entitlement checks, and restore purchases without creating an in‑app account.</p>
+    <p><strong>Legal basis (GDPR):</strong> Performance of a contract; Legitimate interests (operate app & prevent fraud)</p>
+  </div>
+  <div class="data-item">
+    <h3>Device & app data</h3>
+    <p><strong>Examples:</strong> Device model, OS version, app version, language, country, time zone</p>
+    <p><strong>Purpose:</strong> App functionality, analytics, troubleshooting, and crash diagnostics.</p>
+    <p><strong>Legal basis (GDPR):</strong> Legitimate interests</p>
+  </div>
+  <div class="data-item">
+    <h3>Push notification tokens</h3>
+    <p><strong>Examples:</strong> APNs/FCM device token stored in Firestore</p>
+    <p><strong>Purpose:</strong> Send you opted‑in push notifications.</p>
+    <p><strong>Legal basis (GDPR):</strong> Consent (you can disable anytime in iOS Settings)</p>
+  </div>
+  <div class="data-item">
+    <h3>Usage analytics</h3>
+    <p><strong>Examples:</strong> Screen views, events, app interactions (non‑sensitive)</p>
+    <p><strong>Purpose:</strong> Understand feature usage and improve the app.</p>
+    <p><strong>Legal basis (GDPR):</strong> Legitimate interests</p>
+  </div>
+  <div class="data-item">
+    <h3>Crash & diagnostics</h3>
+    <p><strong>Examples:</strong> Stack traces, error messages, device/app context at time of crash</p>
+    <p><strong>Purpose:</strong> Find, reproduce, and fix bugs and performance issues.</p>
+    <p><strong>Legal basis (GDPR):</strong> Legitimate interests</p>
+  </div>
+  <div class="data-item">
+    <h3>Purchase information</h3>
+    <p><strong>Examples:</strong> Product identifiers, transaction receipts, subscription status</p>
+    <p><strong>Purpose:</strong> Provide premium features; manage entitlements and refunds.</p>
+    <p><strong>Legal basis (GDPR):</strong> Performance of a contract; Legal obligation (tax/accounting)</p>
+  </div>
+</div>
+
+      <p class="note">We do not collect your name, email address, or other direct contact information in the app.</p>
+    </section>
+
+    <section>
+      <h2>Third‑Party Services We Use</h2>
+
+      <h3>RevenueCat (Subscriptions)</h3>
+      <p>We use RevenueCat to manage in‑app purchases and subscriptions. We do not create user accounts; RevenueCat assigns an <strong>anonymous App User ID</strong> that links your device’s purchases with your entitlements. Data processed may include product identifiers, transaction receipts, country, device/app metadata, and subscription status.</p>
+      <p>See RevenueCat’s privacy documentation and terms on their website.</p>
+
+      <h3>Firebase Firestore (Token Registry)</h3>
+      <p>We store your device’s <strong>push notification token</strong> in Firestore so the app can send notifications to your device. Firestore stores this identifier and minimal metadata required for routing notifications. You can opt out by disabling notifications in iOS Settings or within the app (where available).</p>
+
+      <h3>Firebase Cloud Messaging (FCM) & APNs (Push Delivery)</h3>
+      <p>With your permission, Watch+ uses FCM and Apple Push Notification service to deliver notifications to your device. FCM and APNs process device tokens and message routing data to deliver notifications.</p>
+
+      <h3>Firebase Analytics (Measurement)</h3>
+      <p>We use Firebase Analytics to collect aggregated, non‑sensitive usage metrics (e.g., screen views, feature usage). This helps us understand how the app is used and improve it. You can limit analytics collection in the app settings (where available) or via platform privacy controls.</p>
+
+      <h3>Sentry (Crash Reporting)</h3>
+      <p>We use Sentry to collect <strong>crash reports and diagnostics</strong>. This may include stack traces, device model, OS version, app version, timestamps, and limited breadcrumbs (recent events leading to the crash). We do not intentionally send personal content.</p>
+    </section>
+
+    <section>
+      <h2>Cookies & Tracking</h2>
+      <p>The app does not use cookies. Third‑party SDKs may generate device identifiers solely for the purposes described above (analytics, crash reporting, subscription management, and notifications).</p>
+    </section>
+
+    <section>
+      <h2>Data Sharing & International Transfers</h2>
+      <p>We do not sell your personal data. We share data only with the processors listed above to operate the app. Some processing may occur outside the EU/EEA (e.g., in the United States). When data is transferred internationally, we rely on appropriate safeguards such as Standard Contractual Clauses offered by the respective providers.</p>
+    </section>
+
+    <section>
+      <h2>Retention</h2>
+      <ul>
+        <li><strong>Push tokens:</strong> kept while notifications are enabled or until the token is invalidated/you uninstall the app.</li>
+        <li><strong>Analytics data:</strong> retained by Firebase per their default retention windows.</li>
+        <li><strong>Crash data:</strong> retained by Sentry per their retention policy, typically limited to what is necessary to investigate issues.</li>
+        <li><strong>Purchase records:</strong> retained for as long as necessary to provide services and meet legal obligations (e.g., tax/accounting).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Your Rights (GDPR)</h2>
+      <p>Depending on your location, you may have the right to request access, rectification, erasure, restriction, or portability of your personal data, and to object to processing based on legitimate interests. You also have the right to withdraw consent at any time (for example, by disabling notifications).</p>
+      <p>You can exercise these rights by contacting us (see <a href="#contact">Contact</a>). You also have the right to lodge a complaint with your local supervisory authority. For Poland, this is the <em>Urząd Ochrony Danych Osobowych (UODO)</em>.</p>
+    </section>
+
+    <section>
+      <h2>Controls & Opt‑Out</h2>
+      <ul>
+        <li><strong>Push notifications:</strong> iOS Settings &rarr; Notifications &rarr; Watch+.</li>
+        <li><strong>Analytics:</strong> In‑app setting (if provided) or platform privacy settings; you may also limit ad tracking/IDFA at the OS level.</li>
+        <li><strong>Crash reporting:</strong> Not user‑identifiable; if you prefer not to share diagnostics, disable system‑wide “Share iPhone & Watch Analytics” where applicable.</li>
+        <li><strong>Subscriptions:</strong> Manage or cancel via App Store &rarr; Subscriptions; you can also contact us for help with entitlement issues.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children’s Privacy</h2>
+      <p>Watch+ is not directed to children under 13, and we do not knowingly collect personal data from children under 13. If you believe a child has provided us with personal data, please contact us so we can take appropriate action.</p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <p>We take reasonable technical and organizational measures to protect your data. However, no method of transmission or storage is 100% secure. We encourage you to keep your device updated and use device security features.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Data Controller: <strong>Krzysztof Rózga Mobile Apps</strong>.</p>
+      <p>Email: <a href="mailto:watchplus.app@gmail.com">watchplus.app@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will post the new version in‑app and update the “Effective date” above. Material changes will be highlighted in release notes or in‑app notices where appropriate.</p>
+    </section>
+
+    <footer class="footer">
+      <p style="margin-top: .75rem;">© 2025 Krzysztof Rózga Mobile Apps</p>
+    </footer>
+  </div>
+</body>
+</html>
